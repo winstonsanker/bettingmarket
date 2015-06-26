@@ -1,0 +1,20 @@
+
+
+GENERAL
+Feel free to improve/optimize example code included.
+
+PHP part:
+  1. In /api/events.php you will find 2 sources of data, one article and one hash containing events with markets and outcomes.
+  2. Replace article placeholders in article with corresponding EVENT level data.
+  3. The returned response should be an JSON object containing finalized article + market level data with outcomes.
+
+JS application:
+  1. Make ajax call to /api/events.php to get data.
+  2. Sort markets on index
+  3. build DOM based on market data as described in index.html
+  4. On "Toggle prices" button click, toggle market prices between decimal and fractional. Both is supplied in markets outcome data ((priceNum, priceDen), priceDec).
+
+  Keep the application state out of the DOM.
+  Feel free to use whatever external tools/libs you see fit.
+
+

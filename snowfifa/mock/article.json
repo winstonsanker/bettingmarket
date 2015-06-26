@@ -1,0 +1,3 @@
+{
+    "response": "Bet live on {$name}!\n At {$startAt} the game between {$homeTeamCname} and {$awayTeamCname} starts.\n For this game we have {$numMarketsDisplayed} markets so place your bets now."
+}

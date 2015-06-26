@@ -1,0 +1,41 @@
+button{
+  margin:10px 0 0 10px
+}
+
+#article{
+  background:#f1edf1;
+  margin:10px;
+  padding:5px;
+  border:1px solid #555;
+  width:500px;
+}
+
+#markets{
+  margin:10px;
+}
+
+.market{
+  width:450px;
+}
+
+.market span{
+  width:100%;
+  display:block;
+}
+
+.market a{
+  width:144px;
+  height:30px;
+  line-height:30px;
+  background:#f1edf1;
+  float:left;
+  border:1px solid #fff;
+}
+
+.market a:hover{
+  border:1px solid #555;
+}
+
+.clear{
+  clear:both;
+}
